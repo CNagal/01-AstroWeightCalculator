@@ -2,35 +2,32 @@
 <html>
 <head>
    <title>Astro Weight Calculator</title>
-
-   <meta charset="utf-8" />
-   
 </head>
-
-<body>
- <div>
-   <h1>Astro Weight Calculator</h1>
-   <label for="weight">Enter Weight  </label>
-   <input id="weight" name="weight" type="text"/>
-   <select id="planets">
-   <option value = ""> None </option>
-   <option value = "27.9"> Sun </option>
-   <option value = ".377"> Mercury </option>
-   <option value = ".9032"> Venus </option>
-   <option value = "1"> Earth </option>
-   <option value = ".1655"> Moon </option>
-   <option value = ".3895"> Mars </option>
-   <option value = "2.640"> Jupiter </option>
-   <option value = "1.139"> Saturn </option>
-   <option value = "0.917"> Uranus </option>
-   <option value = "1.148"> Neptune </option>
-   <option value = "0.06"> Pluto </option>
-   </select>
-   
-   <button onclick = "Calculate())">Calculate Weight</button>
-   
-   <p id="result"></p>
- </div>
-
-</body>
+	<body>
+ 		<div>
+   			<h1>Astro Weight Calculator</h1>
+   			<label> Enter Weight </label>
+   			<input id= "weight" type= "text">
+   			<select id= "planets">
+   			<option value = ""> None </option>
+   			<option value = "27.9"> Sun </option>
+   			<option value = ".377"> Mercury </option>
+   			<option value = ".9032"> Venus </option>
+   			<option value = "1"> Earth </option>
+   			<option value = ".1655"> Moon </option>
+   			<option value = ".3895"> Mars </option>
+   			<option value = "2.640"> Jupiter </option>
+   			<option value = "1.139"> Saturn </option>
+   			<option value = "0.917"> Uranus </option>
+   			<option value = "1.148"> Neptune </option>
+   			<option value = "0.06"> Pluto </option>
+   			</select>
+   			
+   		    <button type= "button" onclick = "formatWeight()">Calculate Weight</button>
+		 <div>  		
+		 <br>
+			<p id="p1">Your New Weight Is:</p>
+ 		
+			<script src = "index.js"></script>
+	</body>
 </html>
